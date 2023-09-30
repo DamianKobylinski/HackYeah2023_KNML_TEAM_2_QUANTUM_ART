@@ -6,8 +6,11 @@ authors = ["Damian Kobyliński <damiankob12@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 notebook = "^7.0.4"
+qiskit = {extras = ["visualization"], version = "^0.44.1"}
+qiskit-aer = "^0.12.2"
+qiskit-ibm-runtime = "^0.12.2"
 
 
 [build-system]
